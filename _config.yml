@@ -1,0 +1,14 @@
+markdown: kramdown
+kramdown:
+  input: GFM
+  highlighter: rouge
+name: "kim suyoung"
+pygments: true
+url: https://ksy8230.github.io
+baseurl: /
+paginate: 8
+
+plugins_dir:
+  -jekyll-paginate
+  -jekyll-sitemap
+  -jekyll-feed
