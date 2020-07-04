@@ -1,15 +1,5 @@
-# frozen_string_literal: true
-
 source "https://rubygems.org"
+gemspec
 
-git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
-
-# gem "rails"
-gem "jekyll"
-gem "flex"
-
-group :jekyll_plugins do
-    gem "jekyll-feed"
-    gem "jekyll-sitemap"
-    gem "jekyll-paginate"
-end
+gem 'jekyll-admin', group: :jekyll_plugins
+gem 'jekyll-sitemap'
